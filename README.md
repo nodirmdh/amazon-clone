@@ -1,18 +1,16 @@
 # Amazon Clone 
 
-## (Laravel, Vue JS, Inertia JS, Tailwind CSS, Stripe)
+## (Laravel, Vue JS, Inertia JS, Pinia, Tailwind CSS, Stripe)
 
 ### Привет
 
 Это собственный онлайн-рынок, как Amazon.
-Мощная и масштабируемая платформа электронной коммерции, с использованием Laravel, Vue JS, Tailwind CSS, Inertia JS и Stripe.
+Мощная и масштабируемая платформа электронной коммерции, с использованием Laravel, Vue JS, Pinia, Tailwind CSS, Inertia JS и Stripe.
 
 ## Установка
 
 
 ```
-git clone https://github.com/John-Weeks-Dev/amazon-clone.git
-
 composer install 
 
 cp .env.example .env 
