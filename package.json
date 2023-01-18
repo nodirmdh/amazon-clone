@@ -21,6 +21,8 @@
     },
     "dependencies": {
         "animate.css": "^4.1.1",
+        "pinia": "^2.0.29",
+        "pinia-plugin-persistedstate": "^3.0.2",
         "vue-material-design-icons": "^5.1.2",
         "vue3-carousel": "^0.2.9"
     }

@@ -40,7 +40,7 @@ import { Carousel, Navigation, Slide } from "vue3-carousel";
                     v-for="cat in $page.props.categories"
                     :key="cat"
                 >
-                    <Link href="/" class="bg-white p-5">
+                    <Link :href="route('category.index', {id: cat.id})" class="bg-white p-5">
                         <div class="text-2xl font-extrabold flex">
                             {{ cat.name }}
                         </div>

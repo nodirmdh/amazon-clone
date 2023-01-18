@@ -2,21 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Product;
+use App\Models\Address;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
-class ProductController extends Controller
+class AddressController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(int $id)
+    public function index()
     {
-        return Inertia::render('Product', [
-            'product' => Product::find($id)
-        ]);
+        return Inertia::render('Address/Index');
     }
 }
